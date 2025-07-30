@@ -1,0 +1,29 @@
+{
+    "General": {
+        "Username": "Kiet Pham",
+        "Email": "test@gmail.com",
+        "Password": "pqkiet854A@",
+        "MailServer": "127.0.0.1",
+        "SMTP": "1234",
+        "POP3": "2345",
+        "Autoload": 5
+    },
+    "Filter": [
+        {
+            "From": [ "crkeo169@gmail.com", "pqkiet854@gmail.com" ],
+            "ToFolder": "Project"
+        },
+        {
+            "Subject": [ "urgent", "ASAP", "important" ],
+            "ToFolder": "Important"
+        },
+        {
+            "Content": [ "reporting", "meeting" ],
+            "ToFolder": "Work"
+        },
+        {
+            "Spam": [ "virus", "hack", "crack" ],
+            "ToFolder": "Spam"
+        }
+    ]
+}
