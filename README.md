@@ -5,7 +5,7 @@
 
 
 ## 🚀 Overview
-This project is a simple mail client allows users to send email using SMTP protocol and download emails using POP3 protocol from a [Test Mail Server](https://github.com/eugenehr/test-mail-server/releases/download/1.0/test-mail-server-1.0.jar). It is implemented in Python, uses `socket` library to handle network communication, and uses [`customtkinter`](https://customtkinter.tomschimansky.com/) for the GUI.
+This project is a simple mail client allows users to send email using SMTP protocol and download emails using POP3 protocol from a [Test Mail Server](https://github.com/eugenehr/test-mail-server). It is implemented in Python, uses `socket` library to handle network communication, and uses [`customtkinter`](https://customtkinter.tomschimansky.com/) for the GUI.
 
 Team size: 3 members
 
